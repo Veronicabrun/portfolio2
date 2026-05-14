@@ -25,17 +25,17 @@ function Hero() {
             React, JavaScript and thoughtful design.
           </p>
 
-          <div className="mt-8 flex flex-col gap-4 sm:flex-row">
+          <div className="mt-8 flex flex-row flex-wrap gap-3 sm:gap-4">
             <Link
               to="/contact"
-              className="rounded-full bg-gradient-to-r from-pink-500 to-purple-600 px-8 py-4 text-center font-semibold text-white shadow-lg transition duration-300 hover:scale-105"
+              className="rounded-full bg-gradient-to-r from-pink-500 to-purple-600 px-6 py-3 text-center text-sm font-semibold text-white shadow-lg transition duration-300 hover:scale-105 sm:px-8 sm:py-4 sm:text-base"
             >
               Let&apos;s Talk
             </Link>
 
             <Link
               to="/about"
-              className="rounded-full border-2 border-purple-600 px-8 py-4 text-center font-semibold text-purple-700 transition duration-300 hover:bg-purple-600 hover:text-white"
+              className="rounded-full border-2 border-purple-600 px-6 py-3 text-center text-sm font-semibold text-purple-700 transition duration-300 hover:bg-purple-600 hover:text-white sm:px-8 sm:py-4 sm:text-base"
             >
               More About Me
             </Link>

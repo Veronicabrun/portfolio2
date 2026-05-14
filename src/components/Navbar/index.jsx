@@ -73,6 +73,7 @@ function Navbar() {
             <NavLink
               to="/"
               onClick={() => setMenuOpen(false)}
+              className={linkStyle}
             >
               Home
             </NavLink>
@@ -82,6 +83,7 @@ function Navbar() {
             <NavLink
               to="/about"
               onClick={() => setMenuOpen(false)}
+              className={linkStyle}
             >
               About
             </NavLink>
