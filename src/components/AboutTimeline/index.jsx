@@ -16,7 +16,7 @@ const timelineItems = [
     title: "Certificate of Apprenticeship in Sales and Service",
     place: "Folkeuniversitetet",
     points: [
-      "Completed a certificate of apprenticeship in sales and marketing.",
+      "Completed a certificate of apprenticeship in sales and Service.",
       "Developed strong communication and customer service skills.",
       "Worked with customer interaction, product presentation and daily store routines.",
     ],
