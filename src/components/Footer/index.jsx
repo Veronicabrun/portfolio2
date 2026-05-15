@@ -1,52 +1,55 @@
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+
 function Footer() {
   return (
-    <footer className="mt-24 border-t border-gray-200 bg-white px-6 py-12">
-      <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-8 md:flex-row">
+    <footer className="relative overflow-hidden bg-white px-6 py-14">
+      
+      {/* Background circles */}
+      <div className="absolute left-0 top-0 h-32 w-32 rounded-full bg-pink-100"></div>
+
+      <div className="absolute bottom-0 right-0 h-40 w-40 rounded-full bg-purple-100"></div>
+
+      <div className="relative z-10 mx-auto flex max-w-7xl flex-col items-center justify-between gap-8 border-t border-pink-100 pt-10 md:flex-row">
         
-        {/* Left side */}
+        {/* Logo / Name */}
         <div className="text-center md:text-left">
-          <h2 className="bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-2xl font-extrabold text-transparent">
+          <h2 className="bg-gradient-to-r from-pink-600 via-purple-700 to-indigo-700 bg-clip-text text-2xl font-extrabold text-transparent">
             Veronica Brun-pedersen
           </h2>
 
-          <p className="mt-2 max-w-md text-sm leading-relaxed text-gray-600">
-            Frontend developer passionate about creating modern,
-            responsive and user-friendly web experiences.
+          <p className="mt-2 text-sm text-gray-500">
+            Frontend Developer & UI Enthusiast
           </p>
         </div>
 
-        {/* Social links */}
+        {/* Socials */}
         <div className="flex items-center gap-4">
+          
           <a
-            href="https://github.com/"
+            href="https://github.com/Veronicabrun"
             target="_blank"
             rel="noreferrer"
-            className="rounded-full border border-gray-300 px-5 py-2 text-sm font-medium text-black transition duration-300 hover:border-pink-500 hover:text-pink-500"
+            aria-label="GitHub"
+            className="flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-r from-pink-500 to-purple-600 text-white shadow-lg transition duration-300 hover:scale-110"
           >
-            GitHub
+            <FaGithub size={20} />
           </a>
 
           <a
-            href="https://linkedin.com/"
+            href="#"
             target="_blank"
             rel="noreferrer"
-            className="rounded-full border border-gray-300 px-5 py-2 text-sm font-medium text-black transition duration-300 hover:border-pink-500 hover:text-pink-500"
+            aria-label="LinkedIn"
+            className="flex h-12 w-12 items-center justify-center rounded-full border-2 border-purple-500 text-purple-700 transition duration-300 hover:bg-purple-600 hover:text-white"
           >
-            LinkedIn
-          </a>
-
-          <a
-            href="/contact"
-            className="rounded-full bg-gradient-to-r from-pink-500 to-purple-600 px-6 py-3 text-sm font-semibold text-white shadow-lg transition duration-300 hover:scale-105"
-          >
-            Let&apos;s Talk
+            <FaLinkedinIn size={18} />
           </a>
         </div>
       </div>
 
-      {/* Bottom */}
-      <div className="mt-10 border-t border-gray-200 pt-6 text-center text-sm text-gray-500">
-        © 2026 Veronica Brun-pedersen. All rights reserved.
+      {/* Bottom text */}
+      <div className="relative z-10 mt-10 text-center text-sm text-gray-500">
+        © {new Date().getFullYear()} Veronica Brun-pedersen. All rights reserved.
       </div>
     </footer>
   );

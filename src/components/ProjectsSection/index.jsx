@@ -47,7 +47,10 @@ function ProjectsSection() {
   const [selectedProject, setSelectedProject] = useState(null);
 
   return (
-    <section className="relative overflow-hidden bg-white px-6 py-28">
+    <section
+      id="projects"
+      className="relative overflow-hidden bg-white px-6 py-28"
+    >
       <div className="absolute left-6 top-20 h-28 w-28 rounded-full bg-pink-100"></div>
       <div className="absolute bottom-24 right-6 h-32 w-32 rounded-full bg-purple-100"></div>
 

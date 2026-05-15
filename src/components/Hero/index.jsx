@@ -21,17 +21,19 @@ function Hero() {
           </h1>
 
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-gray-600">
-            I create responsive, modern and user-friendly web experiences using
-            React, JavaScript and thoughtful design.
+            I create responsive and user-friendly web experiences using React,
+            JavaScript, Tailwind CSS and SCSS. I have a strong passion for
+            design, visual details and creating modern interfaces with thoughtful
+            user experiences.
           </p>
 
           <div className="mt-8 flex flex-row flex-wrap gap-3 sm:gap-4">
-            <Link
-              to="/contact"
+            <a
+              href="#projects"
               className="rounded-full bg-gradient-to-r from-pink-500 to-purple-600 px-6 py-3 text-center text-sm font-semibold text-white shadow-lg transition duration-300 hover:scale-105 sm:px-8 sm:py-4 sm:text-base"
             >
-              Let&apos;s Talk
-            </Link>
+              My Projects
+            </a>
 
             <Link
               to="/about"
