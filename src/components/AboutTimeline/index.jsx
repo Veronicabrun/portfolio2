@@ -16,7 +16,7 @@ const timelineItems = [
     title: "Certificate of Apprenticeship in Sales and Service",
     place: "Folkeuniversitetet",
     points: [
-      "Completed a certificate of apprenticeship in sales and Service.",
+      "Completed a certificate of apprenticeship in sales and service.",
       "Developed strong communication and customer service skills.",
       "Worked with customer interaction, product presentation and daily store routines.",
     ],
@@ -170,6 +170,12 @@ function AboutTimeline() {
             customer experience, design and frontend development.
             I enjoy creating digital experiences that are visually
             engaging, structured and user-friendly.
+
+            <span className="mt-4 block">
+              I started studying frontend development alongside
+              full-time work, driven by a strong passion for design,
+              technology and modern user experiences.
+            </span>
           </p>
         </div>
 
